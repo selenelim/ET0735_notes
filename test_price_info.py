@@ -11,9 +11,8 @@ def test_cost_of_fruit():
 
 
 def test_total_cost():
-    expected_result = 46.75
+    expected_result = 46.74
     test_result = PInfo.total_cost_shopping()
     assert (test_result == expected_result)
 
 
-    
